@@ -1,31 +1,4 @@
-<!-- _config.yml -->
 title: Impact Studios Dev
-email: your-email@example.com
 description: "Your description here"
 url: https://impact-studios-devs.github.io
 baseurl: ""
-show_excerpts: true
-minima:
-  assets:
-    - css/main.css
-    - js/main.js
-  custom_css: null
-  font:
-    family: "Montserrat"
-    size: 14px
-header:
-  image: "custom-header-image.jpg"
-  overlay_filter: 0.5
-  local_image_dir: "/assets/images/"
-excerpt_length: 7
-use_pure_html: false
-social_links:
-  twitter: https://twitter.com/yourusername
-  github: https://github.com/yourusername
-  linkedin: https://linkedin.com/in/yourusername
-  facebook: https://facebook.com/yourpage
-  instagram: https://instagram.com/yourusername
-  email: mailto:your-email@example.com
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-- jekyll-remote-theme
