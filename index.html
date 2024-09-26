@@ -1,60 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Studio Impact Studios Dev</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section class="hero">
-            <h1>Welcome to Studio Impact Studios Dev</h1>
-            <p>We're passionate about delivering innovative solutions for your digital needs.</p>
-        </section>
-
-        <section class="features">
-            <h2>Our Services</h2>
-            <div class="feature-grid">
-                <div class="feature-item">
-                    <i class="fas fa-code"></i>
-                    <h3>Web Development</h3>
-                    <p>From responsive design to complex applications, we've got you covered.</p>
-                </div>
-                <div class="feature-item">
-                    <i class="fas fa-mobile-alt"></i>
-                    <h3>Mobile App Development</h3>
-                    <p>Create engaging mobile experiences across iOS and Android platforms.</p>
-                </div>
-                <div class="feature-item">
-                    <i class="fas fa-desktop"></i>
-                    <h3>Digital Marketing</h3>
-                    <p>Boost your online presence through targeted strategies and campaigns.</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="cta">
-            <h2>Get Started Today!</h2>
-            <button>Contact Us</button>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Studio Impact Studios Dev. All rights reserved.</p>
-    </footer>
-
-    <script src="https://kit.fontawesome.com/your-fontawesome-kit-id.js" crossorigin="anonymous"></script>
-</body>
-</html>
+---
+layout: default
+title: Home
+---
+<h1>Welcome to Impact Forge LLC</h1>
+<p>We are dedicated to forging impactful solutions for a better tomorrow.</p>
+<div class="cta-buttons">
+    <a href="{{ '/about.html' | relative_url }}" class="button">Learn more about us</a>
+    <a href="{{ '/battlespace.html' | relative_url }}" class="button">Play Battlespace</a>
+    <a href="{{ '/contact.html' | relative_url }}" class="button">Contact us</a>
+</div>
