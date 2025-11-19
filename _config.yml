@@ -1,4 +1,19 @@
 title: Impact Studios Dev
-description: "Your description here"
-url: https://impact-studios-devs.github.io
+description: "Game development studio creating immersive gaming experiences with Unreal Engine"
+url: "" # Will be set by Cloudflare Pages
 baseurl: ""
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: assets/css
+  style: compressed
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - README.md
